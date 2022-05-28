@@ -28,15 +28,12 @@ h1,h2,h3,h4,h5,h6 {
     background-color: var(--primary-bcg);
 }
 .logo {
-    color var(--accent-color);
+    color: var(--accent-color);
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-}
-.logo:visited {
-    color: var(--accent-color);
 }
 .accent {
     color: var(--black-color);
@@ -100,7 +97,8 @@ h1,h2,h3,h4,h5,h6 {
     text-transform: uppercase;
 }
 .button {
-cursor: pointer;
+    font-family: inherit;
+    cursor: pointer;
 }
 .primary {
     color: var(--white-color);
