@@ -3,6 +3,7 @@
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --white-color: #FFFFFF;
+    --black-color: #000000;
     --primary-bcg: #FFFFFF;
     --secondary-bcg: #F5F4FA;
     --accent-bcg: #2F303A;
@@ -38,7 +39,7 @@ h1,h2,h3,h4,h5,h6 {
     color: var(--accent-color);
 }
 .accent {
-    color: #000000;
+    color: var(--black-color);
 }
 .nav-link {
     color: var(--title-text-color);
@@ -68,7 +69,7 @@ h1,h2,h3,h4,h5,h6 {
     background-color: var(--accent-bcg);
 }
 .accent-bottom {
-    color: #FFFFFF;
+    color: var(--white-color);
 }
 .street {
     color: var(--white-color);
@@ -85,7 +86,7 @@ h1,h2,h3,h4,h5,h6 {
     letter-spacing: 0.03em;
 }
 
-/* index.html */
+/* index.html+button */
 .index-hero {
     background-color: var(--accent-bcg);
 }
@@ -111,6 +112,20 @@ h1,h2,h3,h4,h5,h6 {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+}
+.secondary {
+    color: var(--title-text-color);
+    background-color: var(--secondary-bcg);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.secondary:hover,
+.secondary:focus {
+    color: var(--white-color);
+    background-color: var(--accent-color);
 }
 
 .features-title {
@@ -154,5 +169,19 @@ h1,h2,h3,h4,h5,h6 {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* portfolio.html */
+.portfolio-titles {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.portfolio-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
     letter-spacing: 0.03em;
 }
